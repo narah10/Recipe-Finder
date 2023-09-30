@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Dish Dive</title>
+</head>
+<body>
+    <header class="heading-container">
+        <div class="header-items">
+            <h1>Dish Dive</h1>
+            <div>
+                <h2>Ready to explore a world of delicious meals?</h2>
+                <p>Welcome to Your Ingredient-Powered Recipe Finder! <br>Discover tasty meals with what you have at home.</p>
+                <button><a href="#container" style="scroll-behavior: smooth;">Start</a></button>
+            </div>
+        </div>
+    </header>
+    <section class="more-info">
+        <h3>Discover and Cook with Ease</h3>
+        <div class="item-details">
+            <div class="with-icons">
+                <div><img class="icon1" src="./assets/cake.png" alt="cake icon"></div>
+                <div> 
+                    <h4>Step 1: Find Recipes</h4>
+                    <p>Begin your culinary journey by searching for recipes using our intuitive search bar. Whether you're craving a classic comfort dish or something unique, simply enter your preferences, and our extensive recipe database will provide options that cater to your desires.</p>
+                </div>
+            </div>
+            <div class="with-icons">
+                <div><img class="icon2" src="./assets/cupcake.png" alt="cake icon"></div>
+                <div>
+                    <h4>Step 2: Personalize your recipes!</h4>
+                    <p>Fine-tune your search results by searching for the different ingredients needed. Tailor your selections to suit your cooking style, making it easy to find the perfect recipe for your needs.</p>
+                </div>
+            </div>
+            <div class="with-icons">
+                <div><img class="icon3" src="./assets/donut.png" alt="cake icon"></div>
+                <div>
+                    <h4>Step 3: Save your discoveries</h4>
+                    <p> Save your favorite recipes for later so you can refer back to them when needed. Your personal cookbook is just a few clicks away.</p>
+                </div>
+            </div>
+            <div class="with-icons">
+                <div><img class="icon4" src="./assets/icecream.png" alt="cake icon"></div>
+                <div>
+                    <h4>Step 4: Share your journey</h4>
+                    <p>After preparing a delectable meal, don't forget to share your culinary expertise with our community, helping others embark on their flavorful journeys. Cooking has never been this enjoyable and accessible!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="container">
+        <div class="searchSection">
+            <h3>Recipes</h3>
+            <input type="text" id="userSearch" placeholder=" bread..." >
+            <button class="searchButton">Search</button>
+        </div>
+        <div id="recipe-container"></div>
+    </section>
+</body>
+</html>

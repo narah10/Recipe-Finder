@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+button{
+    background-color: #fe5b35;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+button a:visited {
+    color: #ffffff;
+}
+
+button:hover{
+    background-color: #fb2e00;
+}
+
+/*Header*/
+
+.heading-container{
+    background-image: url('./assets/header-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50vh;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.header-items {
+    padding-top: 5%;    
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header-items h1{
+    font-size: 6rem;
+}
+
+
+/*Detail Section*/
+.more-info {
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.more-info h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.item-details {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem
+}
+
+.with-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon1 {
+    width: 5rem;
+    margin-right: 1rem;
+}
+.icon2 {
+    width: 4rem;
+    margin-right: .5rem;
+}
+.icon3 {
+    width: 5rem;
+    margin-right: 1rem;
+}
+.icon4 {
+    width: 3.2rem;
+    margin-right: 1rem;
+}
+
+/*Recipe information*/
+#container {
+    margin-top: 3rem;
+}
+
+.searchSection {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.searchSection h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#userSearch {
+    width: 20%;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #90bce3;
+    background-color: aliceblue;
+    
+}
+
+/*recipe details*/
+#recipe-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.recipe {
+    box-shadow: 2px 2px 3px 3px #efb18e85;
+    border-radius: 10px;
+}
+
+.recipe-title {
+    padding: 1rem;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.list-style {
+    padding-top: .5rem;
+    padding-left: 3rem;
+    list-style: none;
+}
