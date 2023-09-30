@@ -6,6 +6,7 @@ I developed a recipe finder application as a demonstration of my proficiency in 
 
 
 [Dish Dive Software Demo](https://youtu.be/xsHEvIv0Hxw)
+![Screenshot of the picture](./assets/Screenshot%202023-09-30%20at%201.30.28%20PM.png)
 
 # Development Environment
 
@@ -28,7 +29,7 @@ Here are the programming languages I used for this software
 
 # Future Work
 
-Here a list of things that I want to fix, improve, and add in the future.
+Here is a list of things that I want to fix, improve, and add in the future.
 
 - Add modal pop up of directions for when users click on a recipe
 - Add a feature where users can save the recipe they like using localhost storage
